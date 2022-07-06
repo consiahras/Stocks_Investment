@@ -2,7 +2,7 @@ import wget
 import time
 import os
 
-dest_dir='/home/ksiachras/Daily_nasdaq_file'
+dest_dir='.'
 timestr= time.strftime("%Y%m%d")
 now = time.time()
 ftp_url='ftp://ftp.nasdaqtrader.com/SymbolDirectory/nasdaqlisted.txt'
